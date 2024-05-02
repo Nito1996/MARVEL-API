@@ -1,0 +1,1148 @@
+/* Nav */
+header {
+  background-color: #202020;
+}
+
+.bottomHeader {
+  background-color: #202020;
+  margin-left: 7%;
+  margin-right: 7%;
+  display: grid;
+  justify-content: center;
+  height: 2.5em;
+  letter-spacing: 1px;
+  align-items: flex-start;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 7%;
+  padding-right: 5%;
+  border: 1px solid #393939;
+}
+
+.navBar1 {
+  display: flex;
+  flex-direction: row;
+  border-left: 1px solid #393939;
+}
+
+.navBar2 {
+  text-align: center;
+  border-left: 1px solid #393939;
+  border-right: 1px solid #393939;
+}
+
+.navBar3 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+
+.singUpDiv {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 0.9;
+  font: 600 12px/1 "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+}
+
+.marvelUnlimitedImg {
+  cursor: pointer;
+}
+
+.userImg {
+  object-fit: none;
+  cursor: pointer;
+}
+
+.userDiv {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 0.9;
+  font: 600 12px/1 "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+  font-size: small;
+  text-decoration: none;
+}
+
+.userDiv2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 0.9;
+  font: 600 12px/1 "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+  font-size: small;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 8em;
+}
+
+.textDecorationNone {
+  text-decoration: none;
+  color: #fff;
+  width: 4em;
+  letter-spacing: initial;
+  padding-right: 7%;
+}
+
+.marvelImg {
+  width: 17%;
+}
+
+.navSearchIcon {
+  cursor: pointer;
+  border-left: 1px solid #393939;
+  border-right: 1px solid #393939;
+}
+
+.nav-link {
+  font: 600 12px/1 "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #393939;
+  border-bottom: groove 1px #ed171f;
+}
+
+.nav-link2 {
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  height: 1em;
+  letter-spacing: 1px;
+  text-wrap: nowrap;
+  letter-spacing: normal;
+  font-size: 18px;
+  padding-right: 18%;
+  font: 800 16px/1.3 "Roboto", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+.nav-link2:hover {
+  color: #ed171f;
+}
+
+.navbar-nav {
+  padding-bottom: 0.3em;
+  transition-duration: 0.1s;
+}
+
+.navbar-nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  text-transform: capitalize;
+  padding-right: 5%;
+  height: 1em;
+  padding-top: 0.7em;
+}
+
+.nav-item2 {
+  width: 9%;
+  display: table;
+}
+
+.colorA {
+  color: #5c5c5c;
+  border-right: 1px solid #5c5c5c;
+  padding-right: 20%;
+  height: auto;
+  margin-top: 3%;
+}
+
+.capitalizeLi {
+  text-transform: capitalize;
+}
+
+.reduceSpace {
+  width: 5%;
+  padding-right: 2%;
+}
+/* Main */
+
+.mainContainer {
+  background: url(https://cdn.marvel.com/u/prod/marvel/i/mg/8/e0/52bdf830aa094.jpg)
+    no-repeat center center #0a1117;
+  height: 436px;
+}
+
+.skewBoxSection {
+  max-width: 940px;
+  position: absolute;
+  height: 436px;
+  width: 48%;
+  margin-left: -65px;
+  background-color: rgba(15, 15, 15, 0.8);
+  transform: skew(-11deg);
+  -o-transform: skew(-11deg);
+  -moz-transform: skew(-11deg);
+  -webkit-transform: skew(-11deg);
+  z-index: 0;
+  margin-left: 11%;
+}
+
+.mainSectionContainer {
+  width: 52%;
+  color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.mainHeadline {
+  padding-left: 10%;
+  font-family: "RobotoCondensed Bold", sans-serif;
+  font-size: xx-large;
+  padding-top: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  line-height: 70%;
+  text-align: center;
+  font-stretch: extra-condensed;
+  text-align: justify;
+}
+
+.line2 {
+  font-size: 1.31em;
+}
+
+.line3 {
+  font-size: 1.16em;
+}
+
+.mainP {
+  line-height: 1.4em;
+  padding-top: 20px;
+  font-size: larger;
+  padding-left: 11em;
+  margin-top: 0em;
+}
+
+.mainBtn {
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 15px auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  letter-spacing: 0px;
+  z-index: 10;
+  font: 800 14px/1 "Roboto Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: #e62429;
+  height: 4em;
+  width: 13em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 15em;
+}
+
+.mainBtn:hover {
+  background-color: #9f0013;
+  border-color: #9f0013;
+  opacity: 1;
+}
+
+.mainBtn {
+  position: relative;
+  width: 170px;
+  height: 50px;
+  background-color: #e62429;
+}
+
+.mainBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 100%;
+  transform-origin: top left;
+  transform: skew(-45deg);
+  background-color: #101315;
+}
+
+.mainBtn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 18px;
+  height: 100%;
+  background-color: #101315;
+  transform-origin: bottom right;
+  transform: skew(-45deg);
+}
+/*Secondary container*/
+.siteContainer {
+  font: 400 16px/1.3 "Roboto", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  margin: 50px auto;
+  width: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding-bottom: 2em;
+  background-color: #fff !important;
+}
+
+.detailBox {
+  clear: left;
+  display: inline-block;
+  height: 100px;
+  margin: auto;
+  padding: 1%;
+  width: 30%;
+  vertical-align: top;
+}
+
+.devIcon {
+  float: left;
+}
+
+.detailLink {
+  font-family: "RobotoCondensed Bold", sans-serif;
+  font-size: 1.2em;
+  line-height: 49px;
+  margin-left: 8px;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.detailLink:hover {
+  color: #9f0013;
+  border-bottom: groove 1px #ed171f;
+}
+
+.detailCopy {
+  font-size: 0.9em;
+  margin-left: 57px;
+}
+
+.divLines {
+  border-width: 0 1px;
+  border-color: #eaeaea;
+  border-style: solid;
+  border-right: groove;
+  border-left: groove;
+}
+
+.devUser {
+  margin-left: -10%;
+}
+
+.fixTxt {
+  margin-left: 2em;
+  display: flex;
+  justify-content: left;
+}
+/*Footer*/
+.mainFooter {
+  font-family: "Roboto";
+  font-weight: normal;
+  background-color: #202020;
+  font: 400 16px/1.3 "Roboto", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  background-color: #151515;
+  width: 100%;
+  height: 20em;
+  display: flex;
+  align-items: center;
+}
+
+.fullContent {
+  flex-wrap: nowrap;
+  display: flex;
+  margin-bottom: 40px;
+  text-align: left;
+  width: min-content;
+}
+
+.mainIcon {
+  justify-content: left;
+  margin-right: 60px;
+  flex: none;
+  user-select: none;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 30px;
+  margin-top: 5em;
+  margin-left: 5em;
+  cursor: pointer;
+}
+
+.mainFooterArticle {
+  margin-right: 60px;
+  font-family: "Roboto", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  margin-top: 6%;
+  line-height: 2em;
+  font-size: small;
+  font-weight: bolder;
+  padding-top: 3em;
+}
+
+.mainFotterLi {
+  display: flex;
+}
+
+.aFooterLi {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: max-content;
+}
+.aFooterLi:hover {
+  color: #bbb;
+}
+
+.aFooterLiCol {
+  font-weight: 100;
+  width: 10em;
+  letter-spacing: 0.1em;
+}
+
+.aFooterLiColLast {
+  line-height: 1.3em;
+}
+
+.mainPromoLinks {
+  flex-wrap: nowrap;
+  display: flex;
+  margin-bottom: 1.5em;
+  text-align: left;
+}
+
+.main-footer__promo-links {
+  display: block;
+  border-bottom: 0;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.main-footer__promotion-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 60px;
+  font-family: "Roboto", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-size: small;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding-top: 1em;
+}
+
+.main-footer__promotion-image {
+  width: 50%;
+  height: 50%;
+}
+
+.main-footer__promotion-info {
+  line-height: 0em;
+}
+
+.main-footer__promotion-title {
+  text-transform: uppercase;
+  font-family: "Roboto", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  margin-top: 6%;
+  line-height: 1em;
+  font-size: small;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.main-footer__promotion-description {
+  text-transform: capitalize;
+  color: #767676;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+.main-footer__promotion-image-wrapper {
+  width: fit-content;
+}
+
+.img__wrapper {
+  margin-right: -2em;
+}
+
+.main-footer__title {
+  font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  font-weight: 550;
+}
+
+.main-footer .footer__social {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.social-links {
+  margin: 10px 0 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  height: 5em;
+}
+
+.fullWrapper {
+  width: 18%;
+  height: 32%;
+  color: #fff;
+}
+
+.footer__social {
+  padding-bottom: 4em;
+  display: flex;
+  place-content: space-between;
+  gap: 2.2em;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 90%;
+  grid-row-gap: 1.5em;
+}
+
+svg {
+  width: 24px !important;
+  height: 22px !important;
+}
+
+.social-links .icon--svg--gray-fill {
+  fill: #767676;
+}
+
+.social-links .icon--svg--gray-fill:hover {
+  fill: #fff;
+}
+/*legal Footer*/
+.main-footer__legal {
+  line-height: 1;
+  font-family: "Roboto", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-footer__legal-text {
+  color: #767676;
+  text-decoration: none;
+  line-height: 1.2em;
+  padding: 0 10px;
+  margin-bottom: 5em;
+}
+
+.main-footer__legal-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-footer__legal-wrapper {
+  display: flex;
+  min-width: max-content;
+  word-spacing: 0.1em;
+  background-color: #151515;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+/*MODAL*/
+.modalNewSpecifications {
+  background-image: url("https://cdn.registerdisney.go.com/v4/asset/bundler/MARVEL/v4/images/v1/marvel-background-web.webp");
+  background-size: cover;
+}
+
+.marvelImg2 {
+  width: 12%;
+  position: relative;
+  left: 37em;
+  top: 2em;
+}
+
+.btnModify {
+  background-color: #e62429;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin-right: 3em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  height: 3em;
+}
+
+.form-group {
+  margin-right: 3em;
+  margin-left: 2em;
+}
+
+.btnModify:hover {
+  background-color: #ca2020;
+  color: #fff;
+}
+
+.modal-title {
+  font-size: x-large;
+  margin-left: 1em;
+}
+
+.modal-title-description {
+  font-size: 0.875rem;
+  font-weight: 500;
+  word-spacing: 0.1em;
+  margin-left: 1em;
+}
+
+.form-control {
+  margin-bottom: 1em;
+}
+
+.titleFooter {
+  color: #5f6166;
+  padding-top: 1rem;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: -7px;
+  padding-bottom: 4px;
+  width: -webkit-fill-available;
+  margin-left: 1em;
+}
+
+.descriptionFooter {
+  font-weight: 100;
+  font-size: 0.8em;
+  margin-top: -7px;
+  padding-bottom: 4px;
+  color: #5f6166;
+  padding-top: 1rem;
+  line-height: 1.4em;
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+.moreDetails {
+  color: #000;
+  font-weight: 200;
+}
+
+.moreDetails:hover {
+  color: #0040e5;
+}
+
+.spanMoreDetails {
+  margin-top: 1em;
+  line-height: 3em;
+}
+
+.logInLogos {
+  width: 100%;
+  padding-right: 1.7em;
+  margin-right: -0.4em;
+}
+
+.noProblem {
+  text-decoration: none;
+  display: contents;
+}
+
+.activeUser {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 0.9;
+  font: 600 12px/1 "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+  font-size: small;
+  text-decoration: none;
+}
+
+.visibilityHidden {
+  visibility: hidden;
+}
+
+.visibilityVisible {
+  visibility: visible;
+}
+
+.marvelDiv {
+  cursor: pointer;
+  position: relative;
+  left: 1em;
+}
+
+.nameLogOut {
+  white-space: nowrap;
+  user-select: none;
+  cursor: context-menu;
+}
+
+.navBarPad {
+  padding-right: 22%;
+}
+
+.checkbox-text {
+  width: fit-content !important;
+}
+/*Create Active Layout */
+.displayNone {
+  display: none;
+}
+.displayFlex {
+  display: flex;
+}
+
+.navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  height: 3em;
+  padding-bottom: 0.5em;
+}
+
+.activeNav {
+  font: 550 13px / 1 "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #000;
+  gap: 2em;
+  justify-content: center;
+  display: flex;
+  letter-spacing: 0.5px;
+}
+
+.activeNav > a:hover {
+  color: #eb2328;
+}
+
+.activeTitle {
+  font: 550 35px / 1 "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #000;
+  gap: 2em;
+  justify-content: center;
+  display: flex;
+  letter-spacing: 0.5px;
+}
+
+.activeCard {
+  font: 400 12px / 1 "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #000;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+.activeFooter {
+  font: 550 12px / 1 "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #000;
+  gap: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.activeFooterA:hover {
+  color: #eb2328;
+}
+
+.activeFooterA {
+  color: #000;
+  text-decoration: none;
+  user-select: none;
+}
+
+.activeFooterAdisabled {
+  color: #c6a972;
+  text-decoration: none;
+  user-select: none;
+}
+
+.flyout {
+  width: 84.3em;
+  flex-direction: column;
+  position: absolute;
+  top: 2.5em;
+  height: 30.5em;
+  right: -76.6%;
+  display: none;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  gap: 2em;
+  padding-top: 1.5em;
+  user-select: none;
+}
+
+.flyout2 {
+  width: 84.3em;
+  flex-direction: column;
+  position: absolute;
+  top: 2.5em;
+  height: 30.5em;
+  right: -76.6%;
+  display: none;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  gap: 1.5em;
+  padding-top: 1.5em;
+  user-select: none;
+}
+
+.flyout3 {
+  width: 84.3em;
+  flex-direction: column;
+  position: absolute;
+  top: 2.5em;
+  height: 30.5em;
+  right: -76.6%;
+  display: none;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  gap: 1.5em;
+  padding-top: 1.5em;
+  user-select: none;
+}
+
+.flyout4 {
+  width: 84.3em;
+  flex-direction: column;
+  position: absolute;
+  top: 2.5em;
+  height: 30.5em;
+  right: -76.6%;
+  display: none;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  gap: 1.5em;
+  padding-top: 1.5em;
+  user-select: none;
+}
+
+.flyout5 {
+  width: 84.3em;
+  flex-direction: column;
+  position: absolute;
+  top: 2.5em;
+  height: 30.5em;
+  right: -76.6%;
+  display: none;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  gap: 1.5em;
+  padding-top: 1.5em;
+  user-select: none;
+}
+
+.flyout6 {
+  width: 84.3em;
+  flex-direction: column;
+  position: absolute;
+  top: 2.5em;
+  height: 30.5em;
+  right: -76.6%;
+  display: none;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  gap: 1.5em;
+  padding-top: 1.5em;
+  user-select: none;
+}
+
+.flyout7 {
+  width: 84.3em;
+  flex-direction: column;
+  position: absolute;
+  top: 2.5em;
+  height: 30.5em;
+  right: -76.6%;
+  display: none;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  gap: 2em;
+  padding-top: 1.5em;
+  user-select: none;
+}
+
+.flyout8 {
+  width: 84.3em;
+  flex-direction: column;
+  position: absolute;
+  top: 2.5em;
+  height: 30.5em;
+  right: -76.6%;
+  display: none;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  gap: 1.5em;
+  padding-top: 1.5em;
+  user-select: none;
+}
+
+.playIcon {
+  background-color: #fff;
+  color: #fff;
+  opacity: 0.7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  background-color: #fff;
+  bottom: 12.4em;
+  right: 8em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.moreFooter {
+  object-fit: none;
+}
+
+.middleNav {
+  height: 3.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.activeNavA {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.card-img-top2 {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.card-img-top3 {
+  width: 100%;
+  object-fit: cover;
+  height: inherit;
+}
+
+.card-img-top3:hover {
+  width: 100%;
+  object-fit: cover;
+  height: inherit;
+  height: 20em;
+}
+
+.hover:hover {
+  color: #9f0013;
+}
+
+.hover:hover .card-body__headline {
+  color: #9f0013;
+}
+
+.hover {
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+.comicImg {
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.comicImg:hover {
+  position: relative;
+  bottom: 0.5em;
+}
+
+.comicImg2 {
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 18em;
+  overflow: hidden;
+  border-bottom: 5px solid #eb2328;
+}
+
+.comicImg2:hover {
+  object-fit: cover;
+}
+
+.card-bodyMain {
+  display: flex;
+  justify-content: end;
+  text-align: left;
+  flex-direction: column;
+  gap: 0.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.3em;
+  text-transform: capitalize;
+  padding-left: 0.6em;
+}
+
+.card-bodyMain2 {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  height: 10em;
+}
+
+.hover2:hover .card-bodyMain2 {
+  background: linear-gradient(to bottom, #000, #eb2328);
+}
+  
+.card-bodyMainContainer2 {
+  background-color: #000;
+  color: #fff;
+}
+
+.card-bodyMainContainer2:hover > {
+  background-color: #eb2328;
+  object-fit: cover;
+  color: #fff;
+}
+
+.card {
+  --bs-card-border-width: 0px;
+  background-color: #fff;
+}
+
+.card-img-top:hover {
+  filter: brightness(120%);
+}
+
+.card-body__headline {
+  text-decoration: none;
+  font-size: 15px;
+  color: #151515;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+  font: bolder 13px / 1.2 "Roboto Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: initial;
+  overflow-wrap: break-word;
+  padding-right: 1em;
+}
+.card-body__headline:hover {
+  color: #9f0013;
+}
+
+.card-body__headline2 {
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+  font: bolder 13px / 1.2 "Roboto Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: initial;
+  overflow-wrap: break-word;
+  padding-right: 1em;
+}
+.card-body__headline2:hover {
+  color: #fff;
+}
+
+.card-body__unlinked {
+  color: #767676;
+  margin: 0;
+  padding: 0;
+  font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+}
+
+.navComics, .navNews, .navCharacters, .navMovies, .navShows, .navGames, .navVideos {
+  cursor: pointer;
+  user-select: none;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Developer Portal</title>
+    <link rel="shortcut icon" href="./mainImages/mainIcon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/CSS/signIn.css" />
+  </head>
+  <body>
+    <!-- Modal -->
+    <div
+      class="modalNewSpecifications"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <img
+        class="marvelImg2"
+        src="https://cdn.registerdisney.go.com/v4/asset/bundler/MARVEL/v4/images/v1/marvel-logo.svg"
+        alt="marvelImg"
+      />
+      <a href="../index.html" type="button" class="btn-close"></a>
+      <a href="./logIn.html" class="btn-back">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-arrow-left-circle-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"
+          />
+        </svg>
+      </a>
+      <div class="modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Good news, you already have an account
+            </h5>
+          </div>
+          <div class="modal-body modal-title-description">
+            Since you’ve already used your email to sign up for one or more
+            services within The Walt Disney Family of Companies, you can now log
+            into Marvel using
+            <strong class="verifiedEmail">example@example.com</strong>
+            <a class="editBtn" href="/HTML/logIn.html">edit</a>
+          </div>
+          <p class="text-block">Enter your current password to log in.</p>
+          <div class="form-group">
+            <div class="password-container">
+              <input
+                autocomplete="off"
+                type="password"
+                class="form-control"
+                id="passwordField"
+                aria-describedby="emailHelp"
+                placeholder="Password"
+              />
+              <img
+                class="reveal-btn"
+                id="revealButton"
+                src="/mainImages/invisible.png"
+              />
+            </div>
+            <div
+              class="error-container input-error input-error-password input-error-InputPassword displayed"
+            >
+              <span
+                class="input-error input-error-password input-error-InputPassword"
+                id="InputPassword-error"
+                data-testid="InputPassword-error"
+                role="alert"
+                >We couldn't log you in. Please check your email and password
+                and try again. Note: passwords are case sensitive. If you can't
+                remember your details, use the forgot password link below.</span
+              >
+            </div>
+          </div>
+          <button type="button" class="btnModify">Continue</button>
+          <div class="modal-footer">
+            <h3 class="titleFooter">Having trouble logging in?</h3>
+            <p class="descriptionFooter">
+              This email and password lets you log into services and experiences
+              across The Walt Disney Family of Companies, such as ESPN, Walt
+              Disney World, Marvel,
+              <a
+                class="moreDetails"
+                target="_blank"
+                rel="noopener"
+                href="https://mydisneyaccount.com/explore"
+                tracked-link="AND_MORE_LINK"
+              >
+                and more.</a
+              >
+              <br />
+              <a id="toggleButton" class="spanMoreDetails"
+                >If you’ve forgotten the password you use for those sites, click
+                here.</a
+              >
+            </p>
+
+            <div
+              class="changePasswordContainer"
+              id="inputContainer"
+              style="display: none"
+            >
+              <input
+                class="form-control changePasswordInputFirstName"
+                type="text"
+                placeholder="First Name"
+              /><br />
+              <input
+                class="form-control changePasswordInputLastName"
+                type="text"
+                placeholder="Last Name"
+              /><br />
+              <input
+                class="form-control changePasswordInputBirthDate"
+                type="date"
+                placeholder="Birth Date"
+              /><br />
+              <input
+                class="form-control changePasswordInputNewPassword"
+                type="password"
+                placeholder="New Password"
+              /><br />
+              <img
+                class="reveal-btn2"
+                id="revealButton2"
+                src="/mainImages/invisible.png"
+              />
+              <button class="btnSubmit" id="submitButton">Submit</button>
+            </div>
+
+            <img
+              class="logInLogos"
+              src="/mainImages/logInLogos.png"
+              alt="logInLogos"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/JS/signIn.js"></script>
+    <script type="module" src="/modulesJS/passwordRevealer.js"></script>
+  </body>
+</html>

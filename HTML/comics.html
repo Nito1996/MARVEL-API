@@ -1,0 +1,1704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Developer Portal</title>
+    <link rel="shortcut icon" href="./mainImages/mainIcon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/comics.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Click to trigger modal -->
+      <section class="navBar">
+        <article class="navBar1">
+          <a href="/HTML/logIn.html"
+            ><img class="userImg" src="/mainImages/bestoInsider.png" alt="ins"
+          /></a>
+          <div class="userDiv">
+            <a class="textDecorationNone" href="/HTML/logIn.html">log in</a>|<a
+              class="textDecorationNone"
+              href="/HTML/logIn.html"
+              >join</a
+            >
+          </div>
+        </article>
+        <article class="navBar2">
+          <a class="marvelDiv" href="../index.html"
+            ><img
+              class="marvelImg"
+              src="/mainImages/Marvel_Logo.svg.png"
+              alt=""
+          /></a>
+        </article>
+        <!-- Click to trigger modal -->
+        <article class="navBar3">
+          <a href="/HTML/logIn.html">
+            <img
+              class="marvelUnlimitedImg"
+              src="/mainImages/marvelUnlimited.png"
+              alt="marvelUnlimited"
+          /></a>
+          <!-- Click to trigger modal -->
+          <a class="noProblem" href="/HTML/logIn.html"
+            ><div class="singUpDiv">marvel unlimited subscribe</div></a
+          >
+        </article>
+        <!-- Click to trigger modal -->
+        <article class="navBar4">
+          <nav class="navbar" style="background-color: #202020">
+            <a href="/HTML/logIn.html"
+              ><img
+                src="/mainImages/searchIcon.png"
+                alt="SearchIcon"
+                class="navSearchIcon"
+            /></a>
+          </nav>
+        </article>
+      </section>
+      <section class="bottomHeader">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item navNews">
+                <a class="nav-link">news</a>
+                <div class="flyout" id="flyout">
+                  <div class="activeNav">
+                    <a
+                      href="https://developer.marvel.com/latestnews"
+                      class="activeNavA"
+                      >latest news</a
+                    >
+                    <a
+                      href="https://developer.marvel.com/articles"
+                      class="activeNavA"
+                      >all news</a
+                    >
+                  </div>
+                  <div class="activeTitle">
+                    <p class="activeTitleP">trending news</p>
+                  </div>
+                  <div class="activeCard">
+                    <div class="card bg-light mb-3" style="max-width: 13.7rem">
+                      <a
+                        href="https://developer.marvel.com/articles/movies/deadpool-and-wolverine-teaser"
+                        ><img
+                          class="card-img-top"
+                          src="/mainImages/imageCard1.png"
+                          alt="Card image cap"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <p class="card-body__unlinked">Movies</p>
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/articles/movies/deadpool-and-wolverine-teaser"
+                            >First 'Deadpool & amp; Wolverine' Teaser Debuts
+                            During The Big Game</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card bg-light mb-3" style="max-width: 13.7rem">
+                      <a
+                        href="https://developer.marvel.com/articles/comics/march-6-2024-new-marvel-comics-collections-releases-full-list"
+                        ><img
+                          class="card-img-top"
+                          src="/mainImages/imageCard2.png"
+                          alt="Card image cap"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <p class="card-body__unlinked">Comics</p>
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/articles/comics/march-6-2024-new-marvel-comics-collections-releases-full-list"
+                            >March 6's New Marvel Comics: The Full List</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card bg-light mb-3" style="max-width: 13.7rem">
+                      <a
+                        href="https://developer.marvel.com/articles/tv-shows/marvel-animation-x-men-97-trailer"
+                        ><img
+                          class="card-img-top"
+                          src="/mainImages/imageCard3.png"
+                          alt="Card image cap"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <p class="card-body__unlinked">TV Shows</p>
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/articles/tv-shows/marvel-animation-x-men-97-trailer"
+                            >Marvel Animation Releases First Trailer for ‘X-Men
+                            ‘97’</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card bg-light mb-3" style="max-width: 13.7rem">
+                      <a
+                        href="https://developer.marvel.com/articles/comics/marvel-unlimited-start-scrolling-free-infinity-comics"
+                        ><img
+                          class="card-img-top"
+                          src="/mainImages/imageCard4.png"
+                          alt="Card image cap"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <p class="card-body__unlinked">Comics</p>
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/articles/comics/marvel-unlimited-start-scrolling-free-infinity-comics"
+                            >Marvel's Infinity Comics: Start Scrolling will be
+                            available starting March 7.</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="activeFooter">
+                    <a class="activeFooterAdisabled">search by</a>
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/articles#promo-2"
+                      >movies</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/articles#promo-4"
+                      >comics</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/articles#promo-6"
+                      >tv shows</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/articles#promo-8"
+                      >games</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/articles#promo-10"
+                      >digital series</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/articles#promo-12"
+                      >culture & lifestyle</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/articles#promo-14"
+                      >podcasts</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item navComics">
+                <a class="nav-link">comics</a>
+
+                <div class="flyout2" id="flyout2">
+                  <div class="activeNav">
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/comics/calendar"
+                      >Release Calendar</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/unlimited"
+                      >Marvel Unlimited</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/stormbreakers"
+                      >Stormbreakers</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/comics/discover"
+                      >Reading Lists</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/subscriptions"
+                      >Print Subscriptions</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/comics"
+                      >All Comics</a
+                    >
+                  </div>
+                  <div class="activeTitle">
+                    <p class="activeTitleP">latest comics</p>
+                  </div>
+                  <div class="activeCard">
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://www.marvel.com/comics/issue/112996/ultimate_x-men_2024_1"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/u/prod/marvel/i/mg/6/d0/65e885e02be09/portrait_uncanny.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/articles/comics/marvel-unlimited-start-scrolling-free-infinity-comics"
+                            >Ultimate X-Men (2024) #1</a
+                          >
+                          <p class="card-body__unlinked">2024</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://www.marvel.com/comics/issue/115100/ms_marvel_mutant_menace_2024_1"
+                        ><img
+                          class="card-img-top2"
+                          src="	https://cdn.marvel.com/u/prod/marvel/i/mg/6/c0/65e885a7e1a34/portrait_uncanny.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://www.marvel.com/comics/issue/115100/ms_marvel_mutant_menace_2024_1"
+                            >Ms. Marvel: Mutant Menace (2024) #1</a
+                          >
+                          <p class="card-body__unlinked">2024</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://www.marvel.com/comics/issue/110549/the_spectacular_spider-men_2024_1"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/u/prod/marvel/i/mg/7/00/65e885a60d94b/portrait_uncanny.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://www.marvel.com/comics/issue/110549/the_spectacular_spider-men_2024_1"
+                            >The Spectacular Spider-Men (2024) #1</a
+                          >
+                          <p class="card-body__unlinked">2024</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://www.marvel.com/comics/issue/112836/weapon_x-men_2024_1"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/u/prod/marvel/i/mg/4/40/65e8858c9b071/portrait_uncanny.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://www.marvel.com/comics/issue/112836/weapon_x-men_2024_1"
+                            >Weapon X-Men (2024) #1</a
+                          >
+                          <p class="card-body__unlinked">2024</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://www.marvel.com/comics/issue/113504/giant-size_spider-gwen_2024_1"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/d0/65e885c05418b/portrait_uncanny.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://www.marvel.com/comics/issue/113504/giant-size_spider-gwen_2024_1"
+                            >Giant-Size Spider-Gwen (2024) #1</a
+                          >
+                          <p class="card-body__unlinked">2024</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://www.marvel.com/comics/issue/99709/aliens_what_if._2024_1"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/u/prod/marvel/i/mg/2/a0/65e8858c99869/portrait_uncanny.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://www.marvel.com/comics/issue/99709/aliens_what_if._2024_1"
+                            >Aliens: What If...? (2024) #1</a
+                          >
+                          <p class="card-body__unlinked">2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="activeFooter">
+                    <a class="activeFooterAdisabled">search by</a>
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/comics/series"
+                      >Series</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/comics/characters"
+                      >Character</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/comics/creators"
+                      >Creator</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/comics/events_crossovers"
+                      >Event</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item navCharacters">
+                <a class="nav-link">characters</a>
+
+                <div class="flyout3" id="flyout3">
+                  <div class="activeNav">
+                    <a class="activeNavA" href="/characters">All Characters</a>
+                    <a class="activeNavA" href="/teams-and-groups"
+                      >Teams &amp; Groups</a
+                    >
+                    <a class="activeNavA" href="/explore">Explore All</a>
+                  </div>
+                  <div class="activeTitle">
+                    <p class="activeTitleP">trending in the universe</p>
+                  </div>
+                  <div class="activeCard">
+                    <div
+                      class="card bg-light mb-3 hover2"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg2"
+                        href="https://developer.marvel.com/characters/agent-mobius"
+                        ><img
+                          class="card-img-top3"
+                          src="https://cdn.marvel.com/content/1x/1078mob_ons_crd_01.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer2">
+                        <div class="card-bodyMain2">
+                          <a
+                            class="card-body__headline2"
+                            href="https://developer.marvel.com/characters/agent-mobius"
+                            >Agent Mobius</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover2"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg2"
+                        href="https://developer.marvel.com/characters/captain-marvel-carol-danvers"
+                        ><img
+                          class="card-img-top3"
+                          src="https://cdn.marvel.com/content/1x/008cmv_ons_crd_05.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer2">
+                        <div class="card-bodyMain2">
+                          <a
+                            class="card-body__headline2"
+                            href="https://developer.marvel.com/characters/captain-marvel-carol-danvers"
+                            >Captain Marvel</a
+                          >
+                          <p class="card-body__unlinked">Carol Danvers</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover2"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg2"
+                        href="https://developer.marvel.com/characters/loki"
+                        ><img
+                          class="card-img-top3"
+                          src="https://cdn.marvel.com/content/1x/017lok_ons_crd_03.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer2">
+                        <div class="card-bodyMain2">
+                          <a
+                            class="card-body__headline2"
+                            href="https://developer.marvel.com/characters/loki"
+                            >loki</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover2"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg2"
+                        href="https://developer.marvel.com/characters/ms-marvel-kamala-khan"
+                        ><img
+                          class="card-img-top3"
+                          src="https://cdn.marvel.com/content/1x/038mmk_ons_crd_02.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer2">
+                        <div class="card-bodyMain2">
+                          <a
+                            class="card-body__headline2"
+                            href="https://developer.marvel.com/characters/ms-marvel-kamala-khan"
+                            >Ms. Marvel</a
+                          >
+                          <p class="card-body__unlinked">Kamala Khan</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover2"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg2"
+                        href="https://developer.marvel.com/characters/sylvie"
+                        ><img
+                          class="card-img-top3"
+                          src="https://cdn.marvel.com/content/1x/531esl_ons_crd_01.jpg"
+                      /></a>
+                      <div class="card-bodyMainContainer2">
+                        <div class="card-bodyMain2">
+                          <a
+                            class="card-body__headline2"
+                            href="https://developer.marvel.com/characters/sylvie"
+                            >Sylvie Laufeydottir</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="card bg-light mb-3 hover2"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg2"
+                        href="https://developer.marvel.com/characters/monica-rambeau"
+                        ><img
+                          class="card-img-top3"
+                          src="https://cdn.marvel.com/content/1x/180mrb_ons_crd_02.jpg"
+                      /></a>
+                      <div class="card-bodyMainContainer2">
+                        <div class="card-bodyMain2">
+                          <a
+                            class="card-body__headline2"
+                            href="https://developer.marvel.com/characters/monica-rambeau"
+                            >Monica Rambeau</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item navMovies">
+                <a class="nav-link">movies</a>
+
+                <div class="flyout4" id="flyout4">
+                  <div class="activeNav">
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/movies/deadpool-and-wolverine"
+                      >Deadpool &amp; Wolverine</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/movies/the-marvels"
+                      >The Marvels</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/movies/guardians-of-the-galaxy-volume-3"
+                      >Guardians of the Galaxy Volume 3</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/movies"
+                      >See All Movies</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://www.disneyplus.com/brand/marvel?cid=DTCI-Synergy-Marvel-Site-Acquisition-Library-US-Marvel-NA-EN-DropdownNav-Marvel_DisneyPlus_DropdownNav_Movies_Evergreen-NA"
+                      >Disney+</a
+                    >
+                  </div>
+                  <div class="activeTitle">
+                    <p class="activeTitleP">movies</p>
+                  </div>
+                  <div class="activeCard">
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/movies/deadpool-and-wolverine"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/deadpoolandwolverine_lob_crd_02.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/movies/deadpool-and-wolverine"
+                            >Deadpool & Wolverine</a
+                          >
+                          <p class="card-body__unlinked">JUL 26, 2024</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/movies/the-marvels"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/themarvels_lob_crd_05.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/movies/the-marvels"
+                            >The Marvels</a
+                          >
+                          <p class="card-body__unlinked">2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/movies/guardians-of-the-galaxy-volume-3"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/guardiansofthegalaxyvolume3_lob_crd_03.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/movies/guardians-of-the-galaxy-volume-3"
+                            >Guardians of the Galaxy Vol. 3</a
+                          >
+                          <p class="card-body__unlinked">2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/movies/ant-man-and-the-wasp-quantumania"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/antmanandthewaspquantumania_lob_crd_03.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/movies/ant-man-and-the-wasp-quantumania"
+                            >Ant-Man and The Wasp: Quantumania</a
+                          >
+                          <p class="card-body__unlinked">2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/movies/black-panther-wakanda-forever"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/blackpantherwakandaforever_lob_crd_06.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/movies/black-panther-wakanda-forever"
+                            >Black Panther: Wakanda Forever</a
+                          >
+                          <p class="card-body__unlinked">2022</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/movies/thor-love-and-thunder"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/thorloveandthunder_lob_crd_04.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/movies/thor-love-and-thunder"
+                            >Thor: Love and Thunder</a
+                          >
+                          <p class="card-body__unlinked">2022</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item navShows">
+                <a class="nav-link">tv shows</a>
+                <div class="flyout5" id="flyout5">
+                  <div class="activeNav">
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/tv-shows/x-men-97/1"
+                      >X-Men '97</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/tv-shows/echo/1"
+                      >Echo</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/tv-shows/animation/what-if/2"
+                      >What If...?</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/tv-shows"
+                      >See All TV Shows</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://www.disneyplus.com/brand/marvel?cid=DTCI-Synergy-Marvel-Site-Acquisition-Library-US-Marvel-NA-EN-DropdownNav-Marvel_DisneyPlus_DropdownNav_TVShows_Evergreen-NA"
+                      >Disney+</a
+                    >
+                  </div>
+                  <div class="activeTitle">
+                    <p class="activeTitleP">tv shows</p>
+                  </div>
+                  <div class="activeCard">
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/tv-shows/x-men-97/1"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/xmen97_lob_crd_02.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/tv-shows/x-men-97/1"
+                            >X-Men '97</a
+                          >
+                          <p class="card-body__unlinked">MAR 20, 2024</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/tv-shows/echo/1"
+                        ><img
+                          class="card-img-top2"
+                          src="	https://cdn.marvel.com/content/1x/echo_lob_crd_02.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/tv-shows/echo/1"
+                            >Echo</a
+                          >
+                          <p class="card-body__unlinked">2024</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/tv-shows/animation/what-if/2"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/whatifs2_lob_crd_02.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/tv-shows/animation/what-if/2"
+                            >What If...? | Season 2</a
+                          >
+                          <p class="card-body__unlinked">2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/tv-shows/animation/lego-marvel-avengers-code-red/1"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/legomarvelavengerscodered_lob_crd_01.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/tv-shows/animation/lego-marvel-avengers-code-red/1"
+                            >LEGO Marvel Avengers: Code Red</a
+                          >
+                          <p class="card-body__unlinked">2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/tv-shows/loki/2"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/lokis2_lob_crd_04.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/tv-shows/loki/2"
+                            >Loki | Season 2</a
+                          >
+                          <p class="card-body__unlinked">2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/tv-shows/i-am-groot/2"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/iamgroots2_lob_crd_01.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/tv-shows/i-am-groot/2"
+                            >I Am Groot | Season 2</a
+                          >
+                          <p class="card-body__unlinked">2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item navGames">
+                <a class="nav-link">games</a>
+                <div class="flyout6" id="flyout6">
+                  <div class="activeNav">
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/games/marvels-spider-man-2"
+                      >Marvel's Spider-Man 2</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/games/marvels-midnight-suns"
+                      >Marvel's Midnight Suns</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/games/marvel-snap"
+                      >MARVEL SNAP</a
+                    >
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/games"
+                      >See all Games</a
+                    >
+                  </div>
+                  <div class="activeTitle">
+                    <p class="activeTitleP">games</p>
+                  </div>
+                  <div class="activeCard">
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/games/marvels-spider-man-2"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/marvelsspiderman2_lob_crd_02.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/games/marvels-spider-man-2"
+                            >Marvel's Spider-Man 2</a
+                          >
+                          <p class="card-body__unlinked">2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/games/marvels-midnight-suns"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/marvelsmidnightsuns_lob_crd_03.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/games/marvels-midnight-suns"
+                            >Marvel's Midnight Suns</a
+                          >
+                          <p class="card-body__unlinked">2022</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/games/marvel-snap"
+                        ><img
+                          class="card-img-top2"
+                          src="	https://cdn.marvel.com/content/1x/marvelsnap_lob_crd_01.png"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/games/marvel-snap"
+                            >MARVEL SNAP</a
+                          >
+                          <p class="card-body__unlinked">2022</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com//games/marvels-guardians-of-the-galaxy"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/marvelsguardiansofthegalaxy_lob_crd_02.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com//games/marvels-guardians-of-the-galaxy"
+                            >Marvel's Guardians of the Galaxy</a
+                          >
+                          <p class="card-body__unlinked">2021</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/games/marvel-future-revolution"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/futurerevolution_lob_crd_01.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/games/marvel-future-revolution"
+                            >MARVEL Future Revolution</a
+                          >
+                          <p class="card-body__unlinked">2021</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="card bg-light mb-3 hover"
+                      style="max-width: 8rem"
+                    >
+                      <a
+                        class="comicImg"
+                        href="https://developer.marvel.com/games/marvel-contest-of-champions"
+                        ><img
+                          class="card-img-top2"
+                          src="https://cdn.marvel.com/content/1x/marvelcontestofchampions_lob_crd_02.jpg"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/games/marvel-contest-of-champions"
+                            >Marvel Contest of Champions</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item navVideos">
+                <a class="nav-link">videos</a>
+
+                <div class="flyout7" id="flyout7">
+                  <div class="activeNav">
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/watch/trailers-and-extras"
+                      >Trailers &amp; Extras</a
+                    >
+
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/watch/digital-series"
+                      >Digital Series</a
+                    >
+
+                    <a
+                      class="activeNavA"
+                      href="https://developer.marvel.com/watch"
+                      >All Video</a
+                    >
+                  </div>
+                  <div class="activeTitle">
+                    <p class="activeTitleP">Trending Video</p>
+                  </div>
+                  <div class="activeCard">
+                    <div class="card bg-light mb-3" style="max-width: 13.7rem">
+                      <a
+                        href="https://developer.marvel.com/watch/trailers-and-extras/the-marvels-flerkittens-the-real-and-digital-k"
+                        ><img
+                          class="card-img-top"
+                          src="	https://cdn.marvel.com/content/1x/poster_6345957963112_251ae39e59bbb3bc274ee2e9febe6e43.jpg"
+                          alt="Card image cap" /><img
+                          class="playIcon"
+                          src="/mainImages/playIcon.png"
+                          alt="playIcon"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <p class="card-body__unlinked">Trailers & Extras</p>
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/watch/trailers-and-extras/the-marvels-flerkittens-the-real-and-digital-k"
+                            >The Marvels | Flerkittens: The Real and Digital
+                            Kittens</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card bg-light mb-3" style="max-width: 13.7rem">
+                      <a
+                        href="https://developer.marvel.com/watch/trailers-and-extras/ultimate-x-men-1-official-trailer-marvel-comics"
+                        ><img
+                          class="card-img-top"
+                          src="https://cdn.marvel.com/content/1x/poster_6346023155112_a6d6a6335e2ca016614c3b5609c0f4f8.jpg"
+                          alt="Card image cap" /><img
+                          class="playIcon"
+                          src="/mainImages/playIcon.png"
+                          alt="playIcon"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <p class="card-body__unlinked">Trailers & Extras</p>
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/watch/trailers-and-extras/ultimate-x-men-1-official-trailer-marvel-comics"
+                            >Ultimate X-Men #1 | Official Trailer | Marvel
+                            Comics</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-light mb-3" style="max-width: 13.7rem">
+                      <a
+                        href="https://developer.marvel.com/watch/trailers-and-extras/marvel-studios-echo-maya-x-daredevil-fight-scene-disney-hulu"
+                        ><img
+                          class="card-img-top"
+                          src="	https://cdn.marvel.com/content/1x/poster_6345662011112_76ca1baef991b67be09e73c6ccb990eb.jpg"
+                          alt="Card image cap" /><img
+                          class="playIcon"
+                          src="/mainImages/playIcon.png"
+                          alt="playIcon"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <p class="card-body__unlinked">Trailers & Extras</p>
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/watch/trailers-and-extras/marvel-studios-echo-maya-x-daredevil-fight-scene-disney-hulu"
+                            >Marvel Studios’ Echo | Maya x Daredevil Fight Scene
+                            | Disney+ & Hulu</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card bg-light mb-3" style="max-width: 13.7rem">
+                      <a
+                        href="https://developer.marvel.com/watch/trailers-and-extras/the-marvels-behind-the-powers-of-the-marvels"
+                        ><img
+                          class="card-img-top"
+                          src="https://cdn.marvel.com/content/1x/poster_6345958138112_2ee1d7cf5905b6568ceaa3d87049a6cd.jpg"
+                          alt="Card image cap" />
+                        <img
+                          class="playIcon"
+                          src="/mainImages/playIcon.png"
+                          alt="playIcon"
+                      /></a>
+
+                      <div class="card-bodyMainContainer">
+                        <div class="card-bodyMain">
+                          <p class="card-body__unlinked">Trailers & Extras</p>
+                          <a
+                            class="card-body__headline"
+                            href="https://developer.marvel.com/watch/trailers-and-extras/the-marvels-behind-the-powers-of-the-marvels"
+                            >The Marvels | Behind the Powers of The Marvels</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="activeFooter">
+                    <a class="activeFooterAdisabled">our shows</a>
+
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/watch/digital-series/earth-s-mightiest-show"
+                      >Earth's Mightiest Show</a
+                    >
+
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/watch/digital-series/this-week-in-marvel"
+                      >This Week in Marvel</a
+                    >
+
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com  /watch/digital-series/women-of-marvel"
+                      >Women of Marvel</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item navMore">
+                <a class="nav-link" href="#">more</a>
+                <div class="flyout8" id="flyout8">
+                  <div class="activeTitle" style="margin-top: 4em">
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/culture-lifestyle"
+                      >Lifestyle</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/rpg"
+                      >Role-Playing Game</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/culture-lifestyle/books"
+                      >Books</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://developer.marvel.com/podcasts"
+                      >Podcasts</a
+                    >
+                    <a
+                      class="activeFooterA"
+                      href="https://www.disneystore.com/marvel-content/?CMP=SYN-MARVELCOM:NAV_MORE"
+                      >Shop</a
+                    >
+                  </div>
+                  <img
+                    src="/mainImages/moreFooter.png"
+                    alt="moreFooter"
+                    class="moreFooter"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <section>
+      <article>
+        <nav class="navbar navbar-expand-lg navbar-light middleNav">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav2">
+              <li class="nav-item nav-item2">
+                <a class="nav-link2 colorA" href="#">DEVELOPER PORTAL</a>
+              </li>
+              <li class="nav-item nav-item2 capitalizeLi">
+                <a class="nav-link2" href="#">How-Tos</a>
+              </li>
+              <li class="nav-item nav-item2 capitalizeLi">
+                <a class="nav-link2" href="#">Interactive Documentation</a>
+              </li>
+              <li class="nav-item nav-item2 capitalizeLi">
+                <a class="nav-link2" href="#">Get a Key</a>
+              </li>
+              <li class="nav-item nav-item2 reduceSpace capitalizeLi">
+                <a class="nav-link2" href="#">Help</a>
+              </li>
+              <li class="nav-item nav-item2 capitalizeLi">
+                <a class="nav-link2" href="#">News and Updates</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </article>
+    </section>
+    <main class="mainContainer">
+      <section class="skewBoxSection"></section>
+      <section class="mainSectionContainer row">
+        <a href="/HTML/logIn.html" class="mainBtn displayNone" role="button"
+          >get started</a
+        >
+      </section>
+    </main>
+    <section class="siteContainer">
+      <article class="detailBox">
+        <a
+          class="detailLink"
+          href="https://developer.marvel.com/documentation/getting_started"
+          ><img
+            src="https://cdn.marvel.com/u/prod/marvel/i/mg/b/c0/52d5cc4cc1e41.png"
+            alt="docIcon"
+            class="devIcon"
+          />API Documentation</a
+        >
+        <p class="detailCopy">
+          Read the documentation and rules of the road for the Marvel Comics
+          API.
+        </p>
+      </article>
+      <article class="detailBox divLines">
+        <a class="detailLink" href="https://developer.marvel.com/docs"
+          ><img
+            src="https://cdn.marvel.com/u/prod/marvel/i/mg/6/80/52d56b2725e5e.png"
+            alt="arrowsIcon"
+            class="devIcon"
+          />Test Calls</a
+        >
+        <p class="detailCopy">
+          Use the interactive test page to explore and test API calls.
+        </p>
+      </article>
+      <article class="detailBox">
+        <a class="detailLink" href="https://developer.marvel.com/account"
+          ><img
+            class="devUser"
+            src="/mainImages/userIcon.png"
+            alt="userIcon"
+          />My Developer Account</a
+        >
+        <p class="detailCopy fixTxt">
+          Check your account status and <br />manage your API keys and
+          <br />referrers.
+        </p>
+      </article>
+    </section>
+    <footer class="mainFooter">
+      <section class="fullContent">
+        <a class="mainIcon" href="../index.html"
+          ><img class="mImg" src="/mainImages/m.png" alt="mIcon"
+        /></a>
+        <article class="mainFooterArticle">
+          <ul>
+            <li class="mainFotterLi">
+              <a class="aFooterLi" href="https://www.marvel.com/corporate/about"
+                >About Marvel</a
+              >
+            </li>
+            <li class="mainFotterLi">
+              <a class="aFooterLi" href="https://help.marvel.com">Help/FAQs</a>
+            </li>
+            <li class="mainFotterLi">
+              <a
+                class="aFooterLi"
+                href="https://jobs.disneycareers.com/search-jobs?orgIds=391-1635-24091&amp;ascf=[{%22key%22:%22custom_fields%252EIndustryCustomField%22,%22value%22:%22Marvel%20Entertainment%22}]"
+                >Careers</a
+              >
+            </li>
+            <li class="mainFotterLi">
+              <a
+                class="aFooterLi"
+                href="https://www.marvel.com/corporate/interns"
+                >Internships</a
+              >
+            </li>
+          </ul>
+        </article>
+        <article class="mainFooterArticle">
+          <ul>
+            <li class="mainFotterLi aFooterLiCol">
+              <a
+                class="aFooterLi"
+                href="https://www.marvel.com/corporate/advertising"
+                >Advertising</a
+              >
+            </li>
+            <li class="mainFotterLi aFooterLiCol">
+              <a
+                class="aFooterLi"
+                href="https://www.disneyplus.com/brand/marvel?cid=DTCI-Synergy-Marvel-Site-Acquisition-Library-US-Marvel-NA-EN-NavFooter-Marvel_DisneyPlus_NavFooter_Evergreen-NA"
+                >Disney+</a
+              >
+            </li>
+            <li class="mainFotterLi">
+              <a class="aFooterLi aFooterLiCol" href="https://www.marvelhq.com"
+                >Marvelhq.com</a
+              >
+            </li>
+            <li class="mainFotterLi">
+              <a
+                class="aFooterLi aFooterLiCol aFooterLiColLast"
+                href="https://www.marvel.com/redeem"
+                >Redeem Digital Comics</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="mainPromoLinks">
+        <nav
+          class="main-footer__promo-links"
+          aria-label="Promotional footer navigtion"
+        >
+          <div class="main-footer__promotion">
+            <a
+              class="main-footer__promotion-link"
+              href="https://www.marvel.com/insider?cid=Dcom_navigation_20200929_insider_footer"
+              ><div class="main-footer__promotion-image-wrapper">
+                <figure class="img__wrapper">
+                  <img
+                    src="https://cdn.marvel.com/content/1x/marvel_insider-topnav-logo-large2x.png"
+                    srcset="
+                      https://cdn.marvel.com/content/1x/marvel_insider-topnav-logo-large2x.png
+                    "
+                    alt="Marvel Insider Logo"
+                    class="main-footer__promotion-image"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+              <div class="main-footer__promotion-info">
+                <h4 class="main-footer__promotion-title">Marvel Insider</h4>
+                <p class="main-footer__promotion-description">
+                  Get Rewarded for Being a Marvel Fan
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="main-footer__promotion">
+            <a
+              class="main-footer__promotion-link"
+              href="https://www.marvel.com/unlimited?cid=dcom_navigation_20220712_unlimited_footer"
+              ><div class="main-footer__promotion-image-wrapper">
+                <figure class="img__wrapper">
+                  <img
+                    src="https://cdn.marvel.com/content/1x/mu-logo-w-nav-2x-2021-02.png"
+                    srcset="
+                      https://cdn.marvel.com/content/1x/mu-logo-w-nav-2x-2021-02.png
+                    "
+                    alt="Marvel Unlimited Logo"
+                    class="main-footer__promotion-image"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+              <div class="main-footer__promotion-info">
+                <h4 class="main-footer__promotion-title">Marvel Unlimited</h4>
+                <p class="main-footer__promotion-description">
+                  Access Over 30,000+ Digital Comics
+                </p>
+              </div></a
+            >
+          </div>
+        </nav>
+      </section>
+      <section class="fullWrapper">
+        <nav class="main-footer__follow" aria-label="Social footer navigtion">
+          <h4 class="main-footer__title">Follow Marvel</h4>
+          <ul class="social-links footer__social">
+            <li class="footer__social__img">
+              <a
+                target="_blank"
+                aria-label="follow us on Facebook, opens a new window"
+                class=""
+                href="http://facebook.com/marvel"
+                ><span
+                  class="icon--svg icon--svg--gray-fill icon--facebook"
+                  aria-hidden="true"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M9.426 17.647H.974A.974.974 0 010 16.673V.974C0 .436.436 0 .974 0h15.7c.537 0 .973.436.973.974v15.699a.974.974 0 01-.974.974h-4.497v-6.834h2.294l.343-2.663h-2.637v-1.7c0-.772.214-1.297 1.32-1.297h1.41V2.77a18.853 18.853 0 00-2.055-.105c-2.033 0-3.425 1.241-3.425 3.52V8.15h-2.3v2.663h2.3v6.834z"
+                    ></path></svg></span
+              ></a>
+            </li>
+            <li class="footer__social__img">
+              <a
+                target="_blank"
+                aria-label="follow us on Twitter, opens a new window"
+                class=""
+                href="http://twitter.com/marvel"
+                ><span
+                  class="icon--svg icon--svg--gray-fill icon--twitter"
+                  aria-hidden="true"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                  >
+                    <path
+                      d="M3.5 5.1l3.8 5L4 13.6c-1.9 1.8-3.1 3.6-2.8 3.9.3.3 1.7-.8 3.1-2.5 3.2-3.8 4.1-3.8 6.4 0 1.3 2.2 2.5 3 4.5 3H18l-3.6-5-3.7-5.1L13.9 4c1.8-2.2 2.8-4 2.3-4-.4 0-1.8 1.3-3 3-1.3 1.6-2.6 3-3 3-.4 0-1.6-1.4-2.7-3C6.1.9 4.7 0 2.7 0H-.2l3.7 5.1zm6.3 3.3c5.3 7.6 5.8 8.6 4.4 8.6C13.4 17 3 2.7 3 1.6c0-2 2.3.3 6.8 6.8z"
+                    ></path></svg></span
+              ></a>
+            </li>
+            <li class="footer__social__img">
+              <a
+                target="_blank"
+                aria-label="follow us on Instagram, opens a new window"
+                class=""
+                href="http://instagram.com/marvel"
+                ><span class="icon--svg icon--svg--gray-fill" aria-hidden="true"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M15.441 15.993H2.206a.552.552 0 01-.552-.552V7.17H3.86c-.287.414-.384 1.185-.384 1.675 0 2.953 2.408 5.356 5.368 5.356 2.96 0 5.368-2.403 5.368-5.356 0-.49-.069-1.25-.425-1.675h2.206v8.272a.552.552 0 01-.552.552M8.844 5.458a3.39 3.39 0 013.394 3.386 3.39 3.39 0 01-3.394 3.386A3.39 3.39 0 015.45 8.844a3.39 3.39 0 013.393-3.386m4.391-3.252h1.655c.304 0 .551.247.551.551v1.655a.552.552 0 01-.551.551h-1.655a.552.552 0 01-.551-.551V2.757c0-.304.247-.551.551-.551M15.55 0H2.098A2.095 2.095 0 000 2.093v13.461c0 1.156.94 2.093 2.098 2.093h13.451a2.095 2.095 0 002.098-2.093V2.093C17.647.937 16.707 0 15.549 0"
+                    ></path></svg></span
+              ></a>
+            </li>
+            <li class="footer__social__img">
+              <a
+                target="_blank"
+                aria-label="follow us on Tumblr, opens a new window"
+                class=""
+                href="http://marvelentertainment.tumblr.com"
+                ><span class="icon--svg icon--svg--gray-fill" aria-hidden="true"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="11"
+                    height="18"
+                    viewBox="0 0 11 18"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.535 14.5c-1.532.038-1.83-1-1.842-1.751V7.217h3.844v-2.69h-3.83V0H3.904a.147.147 0 00-.138.133C3.602 1.518 2.904 3.949 0 4.922v2.295h1.937v5.806c0 1.988 1.58 4.812 5.749 4.745 1.407-.022 2.969-.569 3.314-1.04l-.92-2.535c-.356.158-1.037.295-1.545.307z"
+                    ></path></svg></span
+              ></a>
+            </li>
+            <li class="footer__social__img">
+              <a
+                target="_blank"
+                aria-label="follow us on Youtube, opens a new window"
+                class=""
+                href="http://youtube.com/marvel"
+                ><span class="icon--svg icon--svg--gray-fill" aria-hidden="true"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="15"
+                    viewBox="0 0 21 15"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.109 9.73l-.001-5.679 5.522 2.85-5.521 2.83zm12.124-6.663s-.2-1.393-.812-2.006c-.778-.806-1.649-.81-2.048-.856C14.513 0 10.223 0 10.223 0h-.009s-4.29 0-7.15.205c-.4.046-1.27.05-2.048.856-.612.613-.812 2.006-.812 2.006S0 4.703 0 6.338v1.534c0 1.636.204 3.272.204 3.272s.2 1.392.812 2.006c.778.805 1.8.78 2.254.864 1.635.155 6.949.203 6.949.203s4.294-.006 7.154-.21c.4-.048 1.27-.052 2.048-.857.612-.614.812-2.006.812-2.006s.204-1.636.204-3.272V6.338c0-1.635-.204-3.271-.204-3.271z"
+                    ></path></svg></span
+              ></a>
+            </li>
+            <li class="footer__social__img">
+              <a
+                target="_blank"
+                aria-label="follow us on Snapchat, opens a new window"
+                class=""
+                href="https://www.snapchat.com/add/marvelhq"
+                ><span class="icon--svg icon--svg--gray-fill" aria-hidden="true"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="19"
+                    height="17"
+                    viewBox="0 0 19 17"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M9.155.003C8.74.003 7.91.057 7.02.421c-.51.207-.968.488-1.363.834-.47.412-.853.92-1.138 1.51-.418.865-.319 2.322-.24 3.492.01.127.018.258.027.385a.784.784 0 01-.307.054c-.236 0-.516-.07-.833-.207a.798.798 0 00-.317-.06c-.188 0-.387.051-.56.145-.216.117-.356.283-.394.468-.025.121-.024.362.266.607.16.134.393.258.696.369.079.028.173.056.273.085.346.102.87.255 1.006.552.07.15.04.348-.088.587a5.67 5.67 0 01-.95 1.368c-.347.374-.73.686-1.136.928a4.386 4.386 0 01-1.594.575c-.221.033-.379.215-.366.421a.5.5 0 00.045.176c.09.194.297.358.633.502.411.176 1.026.325 1.827.44.04.072.083.25.112.373.03.13.062.264.107.406.05.153.176.337.502.337.123 0 .265-.025.43-.055.24-.043.569-.103.98-.103.227 0 .463.019.7.055.459.07.853.328 1.31.626.669.436 1.425.93 2.582.93.031 0 .063 0 .094-.003.038.002.085.003.135.003 1.157 0 1.913-.494 2.581-.93.458-.299.852-.556 1.31-.626.238-.036.473-.055.701-.055.393 0 .703.046.98.096.182.033.322.049.43.049.26 0 .435-.12.502-.332.044-.139.076-.27.107-.402.027-.114.07-.298.111-.37.802-.116 1.417-.264 1.828-.44.335-.144.542-.308.632-.5a.485.485 0 00.046-.177c.013-.206-.145-.388-.366-.422-2.498-.38-3.624-2.75-3.67-2.85-.138-.26-.167-.457-.098-.608.136-.296.66-.45 1.006-.551.1-.03.195-.057.273-.086.341-.124.585-.259.746-.412.192-.182.229-.357.227-.472-.006-.277-.236-.523-.6-.643a1.151 1.151 0 00-.407-.072.976.976 0 00-.378.071 2.267 2.267 0 01-.779.205.753.753 0 01-.258-.052l.023-.335.003-.05c.08-1.17.18-2.628-.238-3.493a4.731 4.731 0 00-1.144-1.515A4.822 4.822 0 0011.66.415 5.836 5.836 0 009.523 0l-.368.003z"
+                    ></path></svg></span
+              ></a>
+            </li>
+            <li class="footer__social__img">
+              <a
+                target="_blank"
+                aria-label="follow us on Pinterest, opens a new window"
+                class=""
+                href="https://www.pinterest.com/marvelofficial"
+                ><span class="icon--svg icon--svg--gray-fill" aria-hidden="true"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 8c0 3.275 2.216 6.09 5.388 7.327-.025-.558-.004-1.23.156-1.837l1.158-4.359s-.287-.51-.287-1.266c0-1.185.774-2.07 1.736-2.07.818 0 1.214.546 1.214 1.2 0 .732-.525 1.826-.795 2.84-.226.849.478 1.54 1.42 1.54 1.705 0 2.854-1.946 2.854-4.253 0-1.753-1.329-3.065-3.745-3.065-2.73 0-4.43 1.809-4.43 3.83 0 .698.23 1.189.592 1.569.167.176.19.245.13.447-.043.146-.142.501-.184.641-.06.203-.244.276-.45.2-1.258-.456-1.843-1.68-1.843-3.056 0-2.272 2.156-4.998 6.432-4.998 3.436 0 5.698 2.212 5.698 4.583 0 3.139-1.962 5.483-4.857 5.483-.97 0-1.885-.466-2.198-.996 0 0-.523 1.843-.633 2.198-.19.617-.564 1.234-.906 1.714.81.212 1.665.328 2.55.328 4.97 0 9-3.582 9-8s-4.03-8-9-8-9 3.582-9 8z"
+                    ></path></svg></span
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+    <div class="main-footer__legal-wrapper">
+      <nav
+        class="main-footer__legal flex-wrapper main-footer__legal-main"
+        aria-label="Legal footer navigtion"
+      >
+        <a
+          class="main-footer__legal-text main-footer__legal-link"
+          target="_self"
+          href="https://disneytermsofuse.com"
+          >Terms of Use</a
+        ><a
+          class="main-footer__legal-text main-footer__legal-link"
+          target="_self"
+          href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/"
+          >Privacy Policy</a
+        ><a
+          class="main-footer__legal-text main-footer__legal-link"
+          target="_self"
+          href="https://preferences-mgr.truste.com/?type=disneycolor&amp;affiliateId=115"
+          >Interest-Based Ads</a
+        ><a
+          class="main-footer__legal-text main-footer__legal-link"
+          target="_self"
+          href="https://www.marvel.com/corporate/license_tou"
+          >License Agreement</a
+        ><span class="main-footer__legal-text">©2024 MARVEL</span>
+      </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../main.js"></script>
+    <script src="../JS/createActiveLayout.js"></script>
+    <script type="module" src="../JS/createCards.js"></script>
+    <script src="../JS/redirect.js"></script>
+  </body>
+</html>
