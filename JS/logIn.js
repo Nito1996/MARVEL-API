@@ -1,3 +1,4 @@
+// On click/enter functions to validate if that email exist in local storage
 document
   .querySelector("#exampleInputEmail1")
   .addEventListener("keydown", (event) => {
