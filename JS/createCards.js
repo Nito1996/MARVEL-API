@@ -17,7 +17,7 @@ window.onload = async () => {
 
     // Crear el enlace de la imagen de cómic
     const comicImgLink = document.createElement("a");
-    comicImgLink.href = e.resourceURI? e.resourceURI : e.urls[0].url;
+    comicImgLink.href = e.urls[0].url? e.urls[0].url : e.resourceURI;
     comicImgLink.classList.add("comicImgLink")
 
     // Crear la imagen de la tarjeta
