@@ -13,6 +13,7 @@ document
       }
     }
   });
+  
 // On click/enter functions to validate if that email exist in local storage
 document.querySelector(".btnModify").addEventListener("click", () => {
   const email = document.querySelector("#exampleInputEmail1").value.trim();

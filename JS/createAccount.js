@@ -1,7 +1,9 @@
 import passwordRevealer from "../modulesJS/passwordRevealer.js";
+
 window.addEventListener("load", function () {
   const queryParams = new URLSearchParams(window.location.search);
   const receivedEmail = queryParams.get("email");
+
   document.querySelector(".verifiedEmail").textContent = receivedEmail;
   document.querySelector(".btnModify").addEventListener("click", () => {
     const firstName = document.querySelector("#firstNameField").value;
@@ -23,8 +25,10 @@ window.addEventListener("load", function () {
         birthDate: birthDate,
         active: true,
       };
+
       localStorage.setItem(userEmail, JSON.stringify(userData));
       window.location.href = "../index.html";
+      
     } else {
       alert("You must fill every input field in order to advance.");
       document.querySelector("#firstNameField").value = "";
@@ -33,6 +37,7 @@ window.addEventListener("load", function () {
       document.querySelector("#birthDateField").value = "";
     }
   });
+
   passwordRevealer(
     document.querySelector("#passwordField"),
     document.querySelector("#revealButton")
