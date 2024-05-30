@@ -6,6 +6,7 @@ const createPagination = (fetchedDataTotal) => {
   const endPage = Math.min(fetchedDataTotal - 1, currentPage + 3); // Last page (max = data fetched)
 
   const section = document.createElement("section");
+
   const nav = document.createElement("nav");
   nav.setAttribute("aria-label", "Page navigation example");
 
@@ -363,9 +364,11 @@ const createPagination = (fetchedDataTotal) => {
     nextElipsisLi.classList.add("displayNone");
   }
 };
+
 //Handle how to create new cards function
 async function handleNewCreateCards() {
   await fetchData(currentPage);
+
   fetchedData.results.forEach((e) => {
     //Create card's content
     const cardContainer = document.createElement("div");
